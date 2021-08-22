@@ -1,33 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
-html{
+html {
   height: 100%;
 }
-body{
+body {
   margin: 0;
   height: 100%;
   background-color: hsl(185, 41%, 84%);
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Space Mono', monospace;
-  color:hsl(186, 14%, 43%);
+  font-family: "Space Mono", monospace;
+  color: hsl(186, 14%, 43%);
   font-weight: 700;
   font-size: 1.75vh;
-
-  
 }
 
-@media screen and (max-width: 735px){
-
-  body{
-    width:100%;
+@media screen and (max-width: 735px) {
+  body {
+    width: 100%;
   }
-  
 
-  #root{
+  #root {
     display: flex;
   }
-
 }
-
